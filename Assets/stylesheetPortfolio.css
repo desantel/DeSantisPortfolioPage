@@ -1,192 +1,123 @@
-/* body {
-    padding: 5px;
-    border: 5px;
-    margin: 5px;
+body {
     background-color: rgba(204, 224, 221, 1);
-    position: relative;
 }
 
 nav {
-    display: flex;
-    margin: 5px;
-    height: 150px;
-    width: 100%;
-    margin-bottom: 50px;
-    border-color: black;
-    border-style: solid;
+    margin-bottom: 5px;
     color: whitesmoke;
     background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
 }
 
-.navi a {
+#navi a {
     float: right;
-    display: inline;
-    text-align: center;
     padding: 10px 10px;
 }
-.name {
-    text-align: left;
-    color: whitesmoke;
-}
 
-.navi {
+.name {
+    color: whitesmoke;
+} 
+
+#navi {
     list-style-type: none;
 }
 
-.navi li {
-    display: inline;
-}
-
-a:link {
-    text-decoration: none;
-    float: right;
-}
-
-#about {
-    margin-left: 500px;
-    color: whitesmoke;
-}
-
-#about:hover {
-    color: goldenrod;
-}
-
-#contact {
-    color: whitesmoke;
-}
-
-#contact:hover {
-    color: goldenrod;
-}
-
-#Project {
-    color: whitesmoke;
-}
-
-#Project:hover {
-    color: goldenrod;
-}
-
 aside {
-    display: flex;
-    height: 90%;
-    width: 300px;
-    padding: 5px;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
-    float: left;
+    margin-bottom: 5px;
     background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
     color: whitesmoke;
-    flex-wrap: wrap;
 }
 
 aside p {
     align-content: center;
 }
 
-*/aside img {
+aside img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
-/*
- .row1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 400px;
+
+ #row1 {
+    width: 300px;
+    height: 300px;
     margin: 10px;
     border:solid 3px black;
-    background-image: url(./pexels-dids-2411278.jpg);
-    background-size: 400px 400px;
     color: whitesmoke;
+    background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
 }
 
-.column1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    height: 400px;
-    width: 400px;
+#column1 {
+    width: 300px;
+    height: 300px;
     margin: 10px;
     border:solid 3px black;
-    background-image: url(./pexels-dids-2411278.jpg);
-    background-size: 400px 400px;
     color: whitesmoke;
+    background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
 }
 
-.row1:hover {
+#row1:hover {
     box-shadow: 10px 10px 5px gray;
     background-size: 450px 450px;
 }
 
-.column1:hover{
+#column1:hover{
     box-shadow: 10px 10px 5px gray;
     background-size: 450px 450px;
 }
-
-
 
 footer {
-    display: flex;
-    float: right;
-    height: 150px;
-    width: 100%;
-    border-color: black;
+    border-top-color: black;
     border-style: solid;
     color:whitesmoke;
     background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
-    bottom: 0;
 }
 
-.footerli {
+#footerli {
     text-decoration: none;
-    display: inline;
-    padding: 20px;
 }
 
-.footerli:hover {
+#footerli:hover {
     color: darkred;
 }
 
-.footerli a:link {
+#footerli a:link {
     color: whitesmoke;
-    padding: 20px;
-    display: inline;
+    text-decoration: none;
 }
-.footerli a:hover {
+
+#footerli a:hover {
     color: darkred;
 }
 /* media query */
-/*
+
 @media screen and (max-width:992px) {
-    .navi a {float:right;
+    #navi a {float:right;
             width: 100%;}
-    .aside {float: left;
+    #aside {float: left;
                 flex: 50%}
-    .aside {float: left;
+    #aside {float: left;
                 flex:50%}
-    .aside img {
+    #aside img {
                 flex: 50%;}
-    .row1 {float: right;
+    #row1 {float: right;
                 flex-direction: column;
                 flex: 50%;}
-    .column1 {float: right;
+    #column1 {float: right;
                 flex: 50%}
 }
 
 @media screen and (max-width:600px) {
-    .navi a {float:right;
+    #navi a {float:right;
             width: 100%;}
-    .aside {float: left;
+    #aside {float: left;
                 flex: 75%}
-    .aside {float: left;
+    #aside {float: left;
                 flex:75%}
-    .aside img {
+    #aside img {
                 flex: 75%;}
-    .row1 {float: right;
+    #row1 {float: right;
                 flex-direction: column;
                 flex: 75%;}
-    .column1 {float: right;
+    #column1 {float: right;
                 flex: 75%}
-} */
+} 
