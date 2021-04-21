@@ -1,7 +1,43 @@
-# newweek2homework
+# Personal Portfolio
 
-When the application is opened there is a navigation bar at the top with links that bounce down to the requested areas.
-The About Me section has a picture of me.
-The contact information is at the bottom of the page.
-The first box leads to a project application on git.
-The image grows when hovered over.
+----
+
+![None](https://img.shields.io/badge/License-None-blueviolet)
+
+## Table of Contents
+
+*[Description](#description)
+
+*[Installation](#installation)
+
+*[Usage](#usage)
+
+*[Contribution](#contribute)
+
+*[How to test](#test)
+
+*[Contact Me](#Contact-Information)
+  
+## Description
+A personal page for projects and skills
+  
+## Installation
+No installation needed, pull up webpage via link
+  
+## Usage
+Click on webpage link to access website.  Browse personal site as needed
+[Personal Website](https://desantel.github.io/DeSantisPortfolioPage/portfolio.html)
+
+## License
+None
+
+## Contribution
+None
+  
+## How to Test
+N/A
+  
+## Contact-Information
+[Github Profile](https://github.com/desantel)
+
+N/A
