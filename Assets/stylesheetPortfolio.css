@@ -39,8 +39,9 @@ aside img {
     height: 300px;
     margin: 10px;
     border:solid 3px black;
-    color: whitesmoke;
-    background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
+    color: black;
+    background-image: url("./mainpage.png");
+    font-weight: bolder;
 }
 
 #column1 {
@@ -48,8 +49,9 @@ aside img {
     height: 300px;
     margin: 10px;
     border:solid 3px black;
-    color: whitesmoke;
+    color: darkolivegreen;
     background-image: url("./dashboard.png");
+    font-weight: bolder;
 }
 
 #row1:hover {
@@ -76,8 +78,9 @@ aside img {
     height: 300px;
     margin: 10px;
     border:solid 3px black;
-    color: whitesmoke;
-    background-image: linear-gradient(rgba(57, 84, 98, 0.5), rgba(57, 84, 98, 1));
+    color:darkorchid;
+    background-image: url("./purplenews.png");
+    font-weight: bolder;
 }
 
 #row2:hover {
@@ -101,6 +104,11 @@ footer {
 }
 
 #footerli a:link {
+    text-decoration: none;
+}
+
+.col-6 a {
+    color: black;
     text-decoration: none;
 }
 
