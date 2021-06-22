@@ -12,6 +12,8 @@ nav {
     float: right;
     padding: 10px 10px;
     color: whitesmoke;
+    font-weight: normal;
+    font-size: large;
 }
 
 #navi {
